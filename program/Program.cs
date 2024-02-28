@@ -34,7 +34,15 @@ void PrintArray(string[] array)
     Console.WriteLine();
 }
 
+// Testing
+string [] test1 = new string [] {"1", "777", "123123", "+7(916)999-88-77", "23"};
+PrintArray(CreateNewArray(test1));
 
+string [] test2 = new string [] {"Russia", "Denmark", "Kazan"};
+PrintArray(CreateNewArray(test2));
+
+string [] test3 = new string [] {"o", "ooooo", "oo", "oooooooo", "ooo"};
+PrintArray(CreateNewArray(test3));
 
 
 
